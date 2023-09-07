@@ -1,8 +1,8 @@
 const path = require('path');
 const express = require('express');
 
-const PORT = 80;
-// const PORT = process.env.PORT || 3001;
+// const PORT = 80;
+const PORT = process.env.PORT || 3000;
 
 const config = require('./config');
 if (
